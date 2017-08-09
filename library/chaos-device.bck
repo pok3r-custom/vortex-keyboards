@@ -1,8 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
 $CMP LED_RAGB
 D LED RGB, common anode
 K led rgb diode
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
 $ENDCMP
 #
 #End Doc Library

@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GD25Q
+D GigaDevice SPI Flash
+$ENDCMP
+#
+$CMP HT32F1654
+D Holtek Cortex-M3 MCU
+$ENDCMP
+#
+$CMP HT32F1655
+D Holtek Cortex-M3 MCU
+$ENDCMP
+#
+$CMP MBIA043GP
+D Macroblock LED Driver
+$ENDCMP
+#
+#End Doc Library

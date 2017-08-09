@@ -5,6 +5,7 @@
 *.kicad_pcb-bak
 *~
 _autosave-*
+_saved_*
 *.tmp
 
 *.net

@@ -1,6 +1,6 @@
-update=22/05/2015 07:44:53
+update=Wed 09 Aug 2017 12:33:38 AM EDT
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -60,3 +60,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=library/chaos-device
+LibName31=library/chaos-ic
+LibName32=library/mx1a
