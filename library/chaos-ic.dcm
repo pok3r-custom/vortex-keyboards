@@ -4,6 +4,10 @@ $CMP GD25Q
 D GigaDevice SPI Flash
 $ENDCMP
 #
+$CMP HCT138
+D 3-8 Decoder/Demux
+$ENDCMP
+#
 $CMP HT32F1654
 D Holtek Cortex-M3 MCU
 $ENDCMP

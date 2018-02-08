@@ -9,6 +9,10 @@ $CMP D
 D Diode
 $ENDCMP
 #
+$CMP DIP_SW_QUAD
+D Quad DIP Switch
+$ENDCMP
+#
 $CMP L
 D Inductor
 K inductor choke coil reactor magnetic
