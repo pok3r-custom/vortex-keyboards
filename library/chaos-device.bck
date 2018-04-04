@@ -18,6 +18,11 @@ D Inductor
 K inductor choke coil reactor magnetic
 $ENDCMP
 #
+$CMP LED
+D LED generic
+K led diode
+$ENDCMP
+#
 $CMP LED_RAGB
 D LED RGB, common anode
 K led rgb diode
