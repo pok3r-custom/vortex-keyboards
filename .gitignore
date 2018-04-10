@@ -7,6 +7,7 @@
 _autosave-*
 _saved_*
 *.tmp
+rescue-backup/
 
 *.net
 

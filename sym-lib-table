@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name pok3r-rescue)(type Legacy)(uri ${KIPRJMOD}/pok3r-rescue.lib)(options "")(descr ""))
+  (lib (name chaos-device)(type Legacy)(uri ${KIPRJMOD}/library/chaos-device.lib)(options "")(descr ""))
+  (lib (name chaos-ic)(type Legacy)(uri ${KIPRJMOD}/library/chaos-ic.lib)(options "")(descr ""))
+  (lib (name mx1a)(type Legacy)(uri ${KIPRJMOD}/library/mx1a.lib)(options "")(descr ""))
+  (lib (name pok3r-cache)(type Legacy)(uri ${KIPRJMOD}/pok3r-cache.lib)(options "")(descr "")(disabled))
+)
