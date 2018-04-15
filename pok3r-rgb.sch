@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:pok3r-rgb-cache
 EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
@@ -777,7 +776,7 @@ F 1 "Conn_01x19_Male" H 20600 17150 50  0001 C CNN
 F 2 "" H 20600 18150 50  0001 C CNN
 F 3 "" H 20600 18150 50  0001 C CNN
 	1    20600 18150
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x19 J1
@@ -3932,8 +3931,6 @@ F 3 "" H 20900 19150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20900 19150 20900 18250
-Wire Wire Line
 	20900 18250 20800 18250
 $Comp
 L power:GND #PWR0109
@@ -4214,13 +4211,15 @@ Wire Notes Line
 Wire Wire Line
 	20150 18250 20150 19150
 Wire Wire Line
-	19450 18350 20250 18350
-Wire Wire Line
 	19450 17950 20250 17950
 Wire Wire Line
 	20800 17950 21750 17950
 Wire Wire Line
 	21350 17650 21350 20000
 Wire Wire Line
+	20900 18250 20900 19150
+Wire Wire Line
 	20800 18350 22050 18350
+Wire Wire Line
+	19450 18350 20250 18350
 $EndSCHEMATC
