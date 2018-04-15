@@ -1,4 +1,4 @@
-update=Thu 08 Feb 2018 04:01:49 AM EST
+update=Sun 15 Apr 2018 11:35:28 AM EDT
 version=1
 last_client=kicad
 [general]
@@ -29,37 +29,4 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=library
-[eeschema/libraries]
-LibName1=library/chaos-device
-LibName2=library/chaos-ic
-LibName3=pok3r-cache
-LibName4=power
-LibName5=device
-LibName6=transistors
-LibName7=conn
-LibName8=linear
-LibName9=regul
-LibName10=74xx
-LibName11=cmos4000
-LibName12=adc-dac
-LibName13=memory
-LibName14=xilinx
-LibName15=microcontrollers
-LibName16=dsp
-LibName17=microchip
-LibName18=analog_switches
-LibName19=motorola
-LibName20=texas
-LibName21=intel
-LibName22=audio
-LibName23=interface
-LibName24=digital-audio
-LibName25=philips
-LibName26=display
-LibName27=cypress
-LibName28=siliconi
-LibName29=opto
-LibName30=atmel
-LibName31=contrib
-LibName32=valves
+LibDir=

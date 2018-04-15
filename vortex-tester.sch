@@ -1,40 +1,11 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:vortex-tester-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Vortex 22-key Tester"
 Date ""
 Rev ""
 Comp ""
@@ -44,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597424CA
 P 1200 1350
 F 0 "D?" H 1200 1720 50  0000 C CNN
@@ -55,7 +26,7 @@ F 3 "" H 1200 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742894
 P 3200 1350
 F 0 "D?" H 3200 1720 50  0000 C CNN
@@ -66,7 +37,7 @@ F 3 "" H 3200 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742969
 P 4950 1450
 F 0 "D?" H 4950 1820 50  0000 C CNN
@@ -77,7 +48,7 @@ F 3 "" H 4950 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597429AD
 P 6850 1350
 F 0 "D?" H 6850 1720 50  0000 C CNN
@@ -88,7 +59,7 @@ F 3 "" H 6850 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742A1D
 P 8700 1300
 F 0 "D?" H 8700 1670 50  0000 C CNN
@@ -99,7 +70,7 @@ F 3 "" H 8700 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742A6E
 P 10450 1450
 F 0 "D?" H 10450 1820 50  0000 C CNN
@@ -110,7 +81,7 @@ F 3 "" H 10450 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742AA2
 P 11550 1350
 F 0 "D?" H 11550 1720 50  0000 C CNN
@@ -121,7 +92,7 @@ F 3 "" H 11550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742ADD
 P 12550 1400
 F 0 "D?" H 12550 1770 50  0000 C CNN
@@ -132,7 +103,7 @@ F 3 "" H 12550 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742CA3
 P 13900 1400
 F 0 "D?" H 13900 1770 50  0000 C CNN
@@ -143,7 +114,7 @@ F 3 "" H 13900 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742CF2
 P 15150 1450
 F 0 "D?" H 15150 1820 50  0000 C CNN
@@ -154,7 +125,7 @@ F 3 "" H 15150 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742D3C
 P 16300 1400
 F 0 "D?" H 16300 1770 50  0000 C CNN
@@ -165,7 +136,7 @@ F 3 "" H 16300 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742D89
 P 17550 1350
 F 0 "D?" H 17550 1720 50  0000 C CNN
@@ -176,7 +147,7 @@ F 3 "" H 17550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59742DCB
 P 18700 1350
 F 0 "D?" H 18700 1720 50  0000 C CNN
@@ -187,7 +158,7 @@ F 3 "" H 18700 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597430E1
 P 1300 2600
 F 0 "D?" H 1300 2970 50  0000 C CNN
@@ -198,7 +169,7 @@ F 3 "" H 1300 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743163
 P 3250 2600
 F 0 "D?" H 3250 2970 50  0000 C CNN
@@ -209,7 +180,7 @@ F 3 "" H 3250 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597431BE
 P 5000 2550
 F 0 "D?" H 5000 2920 50  0000 C CNN
@@ -220,7 +191,7 @@ F 3 "" H 5000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743236
 P 6950 2700
 F 0 "D?" H 6950 3070 50  0000 C CNN
@@ -231,7 +202,7 @@ F 3 "" H 6950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743297
 P 8750 2550
 F 0 "D?" H 8750 2920 50  0000 C CNN
@@ -242,7 +213,7 @@ F 3 "" H 8750 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743321
 P 10450 2800
 F 0 "D?" H 10450 3170 50  0000 C CNN
@@ -253,7 +224,7 @@ F 3 "" H 10450 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743396
 P 11650 2700
 F 0 "D?" H 11650 3070 50  0000 C CNN
@@ -264,7 +235,7 @@ F 3 "" H 11650 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597433FC
 P 12650 2650
 F 0 "D?" H 12650 3020 50  0000 C CNN
@@ -275,7 +246,7 @@ F 3 "" H 12650 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743465
 P 14000 2600
 F 0 "D?" H 14000 2970 50  0000 C CNN
@@ -286,7 +257,7 @@ F 3 "" H 14000 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597434D1
 P 15200 2700
 F 0 "D?" H 15200 3070 50  0000 C CNN
@@ -297,7 +268,7 @@ F 3 "" H 15200 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 5974353C
 P 16500 2650
 F 0 "D?" H 16500 3020 50  0000 C CNN
@@ -308,7 +279,7 @@ F 3 "" H 16500 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597435E8
 P 17600 2600
 F 0 "D?" H 17600 2970 50  0000 C CNN
@@ -319,7 +290,7 @@ F 3 "" H 17600 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743661
 P 1350 3700
 F 0 "D?" H 1350 4070 50  0000 C CNN
@@ -330,7 +301,7 @@ F 3 "" H 1350 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597437FF
 P 3250 3800
 F 0 "D?" H 3250 4170 50  0000 C CNN
@@ -341,7 +312,7 @@ F 3 "" H 3250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743884
 P 5050 3700
 F 0 "D?" H 5050 4070 50  0000 C CNN
@@ -352,7 +323,7 @@ F 3 "" H 5050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597438F6
 P 6900 3800
 F 0 "D?" H 6900 4170 50  0000 C CNN
@@ -363,7 +334,7 @@ F 3 "" H 6900 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 5974396B
 P 8800 3800
 F 0 "D?" H 8800 4170 50  0000 C CNN
@@ -374,7 +345,7 @@ F 3 "" H 8800 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597439F3
 P 10300 3850
 F 0 "D?" H 10300 4220 50  0000 C CNN
@@ -385,7 +356,7 @@ F 3 "" H 10300 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743A86
 P 11500 3900
 F 0 "D?" H 11500 4270 50  0000 C CNN
@@ -396,7 +367,7 @@ F 3 "" H 11500 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743B58
 P 12650 3900
 F 0 "D?" H 12650 4270 50  0000 C CNN
@@ -407,7 +378,7 @@ F 3 "" H 12650 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743BEB
 P 13950 3700
 F 0 "D?" H 13950 4070 50  0000 C CNN
@@ -418,7 +389,7 @@ F 3 "" H 13950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743C7D
 P 15100 3800
 F 0 "D?" H 15100 4170 50  0000 C CNN
@@ -429,7 +400,7 @@ F 3 "" H 15100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743D10
 P 16350 3850
 F 0 "D?" H 16350 4220 50  0000 C CNN
@@ -440,7 +411,7 @@ F 3 "" H 16350 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743DAE
 P 17550 3750
 F 0 "D?" H 17550 4120 50  0000 C CNN
@@ -451,7 +422,7 @@ F 3 "" H 17550 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743EC0
 P 1300 5000
 F 0 "D?" H 1300 5370 50  0000 C CNN
@@ -462,7 +433,7 @@ F 3 "" H 1300 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59743F7A
 P 3250 5050
 F 0 "D?" H 3250 5420 50  0000 C CNN
@@ -473,7 +444,7 @@ F 3 "" H 3250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59744023
 P 5050 4850
 F 0 "D?" H 5050 5220 50  0000 C CNN
@@ -484,7 +455,7 @@ F 3 "" H 5050 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597440C5
 P 6950 4950
 F 0 "D?" H 6950 5320 50  0000 C CNN
@@ -495,7 +466,7 @@ F 3 "" H 6950 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59744160
 P 8750 5000
 F 0 "D?" H 8750 5370 50  0000 C CNN
@@ -506,7 +477,7 @@ F 3 "" H 8750 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 59744200
 P 10450 5150
 F 0 "D?" H 10450 5520 50  0000 C CNN
@@ -517,7 +488,7 @@ F 3 "" H 10450 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597442A5
 P 11500 5150
 F 0 "D?" H 11500 5520 50  0000 C CNN
@@ -528,7 +499,7 @@ F 3 "" H 11500 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 5974434D
 P 12750 5150
 F 0 "D?" H 12750 5520 50  0000 C CNN
@@ -539,7 +510,7 @@ F 3 "" H 12750 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597443F2
 P 13950 5100
 F 0 "D?" H 13950 5470 50  0000 C CNN
@@ -550,7 +521,7 @@ F 3 "" H 13950 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_RAGB D?
+L chaos-device:LED_RAGB D?
 U 1 1 597444AA
 P 15250 5050
 F 0 "D?" H 15250 5420 50  0000 C CNN
@@ -561,7 +532,7 @@ F 3 "" H 15250 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HT32F1654 U?
+L chaos-ic:HT32F1654 U?
 U 1 1 597457FB
 P 15850 18800
 F 0 "U?" H 15850 18700 50  0000 C CNN
@@ -572,7 +543,7 @@ F 3 "DOCUMENTATION" H 15850 18800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MBIA043GP U?
+L chaos-ic:MBIA043GP U?
 U 1 1 597463B3
 P 20650 11050
 F 0 "U?" H 20650 10950 50  0000 C CNN
@@ -583,7 +554,7 @@ F 3 "DOCUMENTATION" H 20650 11050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MBIA043GP U?
+L chaos-ic:MBIA043GP U?
 U 1 1 59746571
 P 23000 11050
 F 0 "U?" H 23000 10950 50  0000 C CNN
@@ -594,7 +565,7 @@ F 3 "DOCUMENTATION" H 23000 11050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5974AE2D
 P 10300 11650
 F 0 "D?" H 10300 11750 50  0000 C CNN
@@ -605,7 +576,7 @@ F 3 "" H 10300 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5974AE33
 P 10350 11300
 F 0 "S?" H 10350 11450 60  0000 C CNN
@@ -616,7 +587,7 @@ F 3 "doc/Cherry MX.pdf" H 10350 11050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5974AE39
 P 11100 11650
 F 0 "D?" H 11100 11750 50  0000 C CNN
@@ -627,7 +598,7 @@ F 3 "" H 11100 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5974AE3F
 P 11150 11300
 F 0 "S?" H 11150 11450 60  0000 C CNN
@@ -638,7 +609,7 @@ F 3 "doc/Cherry MX.pdf" H 11150 11050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5974D5D1
 P 11900 11650
 F 0 "D?" H 11900 11750 50  0000 C CNN
@@ -649,7 +620,7 @@ F 3 "" H 11900 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5974D5D7
 P 11950 11300
 F 0 "S?" H 11950 11450 60  0000 C CNN
@@ -660,7 +631,7 @@ F 3 "doc/Cherry MX.pdf" H 11950 11050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GD25Q U?
+L chaos-ic:GD25Q U?
 U 1 1 597DD5FB
 P 19550 20100
 F 0 "U?" H 19550 20000 50  0000 C CNN
@@ -671,7 +642,7 @@ F 3 "DOCUMENTATION" H 19550 20100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HCT138 U?
+L chaos-ic:HCT138 U?
 U 1 1 597DD806
 P 22300 16900
 F 0 "U?" H 22300 16800 50  0000 C CNN
@@ -682,7 +653,7 @@ F 3 "DOCUMENTATION" H 22300 16900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597F5F9E
 P 22650 18150
 F 0 "#PWR?" H 22650 17900 50  0001 C CNN
@@ -693,7 +664,7 @@ F 3 "" H 22650 18150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597F67AE
 P 18550 20400
 F 0 "#PWR?" H 18550 20150 50  0001 C CNN
@@ -704,7 +675,7 @@ F 3 "" H 18550 20400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 597F70E2
 P 14850 17300
 F 0 "#PWR?" H 14850 17050 50  0001 C CNN
@@ -887,7 +858,7 @@ Wire Wire Line
 Wire Wire Line
 	18550 20250 18550 20400
 Wire Wire Line
-	22650 17800 22650 18150
+	22650 17800 22650 18050
 Wire Wire Line
 	22350 18050 22650 18050
 Wire Wire Line
@@ -958,7 +929,7 @@ COL6
 Text GLabel 9750 16150 3    60   Input ~ 0
 COL6
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 59754805
 P 12750 11650
 F 0 "D?" H 12750 11750 50  0000 C CNN
@@ -969,7 +940,7 @@ F 3 "" H 12750 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975480B
 P 12800 11300
 F 0 "S?" H 12800 11450 60  0000 C CNN
@@ -990,7 +961,7 @@ Wire Wire Line
 Wire Wire Line
 	13650 11900 9950 11900
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975A704
 P 10300 10800
 F 0 "D?" H 10300 10900 50  0000 C CNN
@@ -1001,7 +972,7 @@ F 3 "" H 10300 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975A70A
 P 10350 10450
 F 0 "S?" H 10350 10600 60  0000 C CNN
@@ -1012,7 +983,7 @@ F 3 "doc/Cherry MX.pdf" H 10350 10200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975A710
 P 11100 10800
 F 0 "D?" H 11100 10900 50  0000 C CNN
@@ -1023,7 +994,7 @@ F 3 "" H 11100 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975A716
 P 11150 10450
 F 0 "S?" H 11150 10600 60  0000 C CNN
@@ -1034,7 +1005,7 @@ F 3 "doc/Cherry MX.pdf" H 11150 10200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975A71C
 P 11900 10800
 F 0 "D?" H 11900 10900 50  0000 C CNN
@@ -1045,7 +1016,7 @@ F 3 "" H 11900 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975A722
 P 11950 10450
 F 0 "S?" H 11950 10600 60  0000 C CNN
@@ -1086,7 +1057,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 10800 12100 10800
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975A737
 P 12750 10800
 F 0 "D?" H 12750 10900 50  0000 C CNN
@@ -1097,7 +1068,7 @@ F 3 "" H 12750 10800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975A73D
 P 12800 10450
 F 0 "S?" H 12800 10600 60  0000 C CNN
@@ -1116,7 +1087,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 10800 12950 10800
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975B5ED
 P 11100 12500
 F 0 "D?" H 11100 12600 50  0000 C CNN
@@ -1127,7 +1098,7 @@ F 3 "" H 11100 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975B5F3
 P 11150 12150
 F 0 "S?" H 11150 12300 60  0000 C CNN
@@ -1138,7 +1109,7 @@ F 3 "doc/Cherry MX.pdf" H 11150 11900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975B5F9
 P 11900 12500
 F 0 "D?" H 11900 12600 50  0000 C CNN
@@ -1149,7 +1120,7 @@ F 3 "" H 11900 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975B5FF
 P 11950 12150
 F 0 "S?" H 11950 12300 60  0000 C CNN
@@ -1180,7 +1151,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 12500 12100 12500
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975B60F
 P 12750 12500
 F 0 "D?" H 12750 12600 50  0000 C CNN
@@ -1191,7 +1162,7 @@ F 3 "" H 12750 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975B615
 P 12800 12150
 F 0 "S?" H 12800 12300 60  0000 C CNN
@@ -1210,7 +1181,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 12500 12950 12500
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975E23D
 P 11100 13350
 F 0 "D?" H 11100 13450 50  0000 C CNN
@@ -1221,7 +1192,7 @@ F 3 "" H 11100 13350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975E243
 P 11150 13000
 F 0 "S?" H 11150 13150 60  0000 C CNN
@@ -1232,7 +1203,7 @@ F 3 "doc/Cherry MX.pdf" H 11150 12750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975E249
 P 11900 13350
 F 0 "D?" H 11900 13450 50  0000 C CNN
@@ -1243,7 +1214,7 @@ F 3 "" H 11900 13350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975E24F
 P 11950 13000
 F 0 "S?" H 11950 13150 60  0000 C CNN
@@ -1274,7 +1245,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 13350 12100 13350
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975E25F
 P 12750 13350
 F 0 "D?" H 12750 13450 50  0000 C CNN
@@ -1285,7 +1256,7 @@ F 3 "" H 12750 13350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975E265
 P 12800 13000
 F 0 "S?" H 12800 13150 60  0000 C CNN
@@ -1304,7 +1275,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 13350 12950 13350
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975EACB
 P 11100 14200
 F 0 "D?" H 11100 14300 50  0000 C CNN
@@ -1315,7 +1286,7 @@ F 3 "" H 11100 14200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975EAD1
 P 11150 13850
 F 0 "S?" H 11150 14000 60  0000 C CNN
@@ -1326,7 +1297,7 @@ F 3 "doc/Cherry MX.pdf" H 11150 13600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975EAD7
 P 11900 14200
 F 0 "D?" H 11900 14300 50  0000 C CNN
@@ -1337,7 +1308,7 @@ F 3 "" H 11900 14200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975EADD
 P 11950 13850
 F 0 "S?" H 11950 14000 60  0000 C CNN
@@ -1368,7 +1339,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 14200 12100 14200
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975EAED
 P 12750 14200
 F 0 "D?" H 12750 14300 50  0000 C CNN
@@ -1379,7 +1350,7 @@ F 3 "" H 12750 14200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975EAF3
 P 12800 13850
 F 0 "S?" H 12800 14000 60  0000 C CNN
@@ -1398,7 +1369,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 14200 12950 14200
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975EAFD
 P 11100 15050
 F 0 "D?" H 11100 15150 50  0000 C CNN
@@ -1409,7 +1380,7 @@ F 3 "" H 11100 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975EB03
 P 11150 14700
 F 0 "S?" H 11150 14850 60  0000 C CNN
@@ -1420,7 +1391,7 @@ F 3 "doc/Cherry MX.pdf" H 11150 14450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975EB09
 P 11900 15050
 F 0 "D?" H 11900 15150 50  0000 C CNN
@@ -1431,7 +1402,7 @@ F 3 "" H 11900 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975EB0F
 P 11950 14700
 F 0 "S?" H 11950 14850 60  0000 C CNN
@@ -1462,7 +1433,7 @@ Wire Wire Line
 Wire Wire Line
 	12050 15050 12100 15050
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975EB1F
 P 12750 15050
 F 0 "D?" H 12750 15150 50  0000 C CNN
@@ -1473,7 +1444,7 @@ F 3 "" H 12750 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975EB25
 P 12800 14700
 F 0 "S?" H 12800 14850 60  0000 C CNN
@@ -1492,7 +1463,7 @@ Wire Wire Line
 Wire Wire Line
 	12900 15050 12950 15050
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975F431
 P 10250 13050
 F 0 "D?" H 10250 13150 50  0000 C CNN
@@ -1503,7 +1474,7 @@ F 3 "" H 10250 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975F437
 P 10300 12700
 F 0 "S?" H 10300 12850 60  0000 C CNN
@@ -1522,7 +1493,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 13050 10450 13050
 $Comp
-L D D?
+L chaos-device:D D?
 U 1 1 5975F441
 P 10250 14700
 F 0 "D?" H 10250 14800 50  0000 C CNN
@@ -1533,7 +1504,7 @@ F 3 "" H 10250 14700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX1A S?
+L mx1a:MX1A S?
 U 1 1 5975F447
 P 10300 14350
 F 0 "S?" H 10300 14500 60  0000 C CNN
@@ -1583,4 +1554,6 @@ Wire Wire Line
 	13750 15200 13650 15200
 Wire Wire Line
 	13650 15200 13650 15250
+Wire Wire Line
+	22650 18050 22650 18150
 $EndSCHEMATC
