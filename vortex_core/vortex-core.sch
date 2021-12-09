@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -1977,7 +1977,7 @@ F 3 "" H 20000 16350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:USB_OTG CN3
+L vortex-core-rescue:USB_OTG-Connector_Specialized CN3
 U 1 1 5A81EF6F
 P 14450 18900
 F 0 "CN3" H 14250 19350 50  0000 L CNN
