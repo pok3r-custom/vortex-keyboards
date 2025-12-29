@@ -26310,6 +26310,26 @@
 		)
 		(uuid "ffe303f6-5041-40fe-a393-1839cc0333ff")
 	)
+	(label "LE"
+		(at 668.02 463.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a52eb68-ed3a-469b-92de-862f9dce7b62")
+	)
+	(label "DCLK"
+		(at 668.02 466.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21484636-305e-4345-815b-64ab19616a35")
+	)
 	(label "SDI"
 		(at 650.24 505.46 0)
 		(effects
